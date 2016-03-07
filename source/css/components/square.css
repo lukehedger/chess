@@ -1,0 +1,15 @@
+/* component/square */
+
+@value color-dark from "../shared/settings.css";
+
+.base {
+  composes: one-eighth from "../shared/common.css";
+}
+
+.filled {
+  background-color: color-dark;
+}
+
+.available {
+  background-color: rgba(0, 255, 255, 0.5);
+}

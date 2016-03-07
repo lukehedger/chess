@@ -1,0 +1,17 @@
+/* SETTINGS */
+
+/* breakpoints */
+
+@value small: (max-width: 40em);
+@value above-small: (min-width: 40em);
+@value large: (min-width: 64em);
+@value retina: (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi);
+
+/* fonts */
+
+@value font-size: 14px;
+
+/* colors */
+
+@value color-dark: #000000;
+@value color-light: #FFFFFF;

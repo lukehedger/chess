@@ -1,0 +1,19 @@
+/* component/knight */
+
+.base {
+  composes: one-eighth from "../shared/common.css";
+  position: absolute;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.outline {
+  color: white;
+}
+
+.icon {
+  composes: absolute-center from "../shared/common.css";
+  font-size: 80px;
+  line-height: 1;
+  user-select: none;
+}
