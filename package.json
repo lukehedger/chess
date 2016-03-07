@@ -6,7 +6,7 @@
     "test": "babel-node test/index.js | faucet",
     "start": "webpack-dev-server --inline --config ./webpack/dev.config.js",
     "build": "NODE_ENV=production npm-run webpack --config ./webpack/prod.config.js --progress --profile --colors",
-    "deploy": "surge public/ unlease-chess.surge.sh"
+    "deploy": "npm run build && surge public/ unlease-chess.surge.sh"
   },
   "author": "Luke Hedger",
   "license": "ISC",

@@ -1,5 +1,9 @@
 # Unlease Chess
 
+## Demo
+
+Demo lives here: [unlease-chess.surge.sh](https://unlease-chess.surge.sh/)
+
 ## Setup
 
 ### Global dependencies
@@ -39,4 +43,5 @@ npm run deploy
 ## Wiki
 
 - [Architecture](wiki/architecture.md)
+- [Implementation](wiki/implementation.md)
 - [Stack](wiki/stack.md)
